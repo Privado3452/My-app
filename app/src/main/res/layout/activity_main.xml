@@ -85,6 +85,19 @@
 
         android:textColorLink="@color/sena" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30sp"
+        android:ems="10"
+        android:hint="@string/edt_recu"
+
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
 
 </LinearLayout>
 

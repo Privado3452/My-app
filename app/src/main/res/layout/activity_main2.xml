@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -20,72 +20,93 @@
             android:textStyle="bold"
             android:layout_marginBottom="30sp"/>
 
+
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             app:srcCompat="@drawable/logo_sena"
-            android:layout_marginBottom="70sp"
-            />
-
-
-        <EditText
-            android:id="@+id/editTextText5"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:ems="10"
-            android:hint="@string/edt_nom"
-
-            android:layout_marginBottom="10sp"
-            android:inputType="text"
-            android:rotationY="0" />
+            android:layout_marginBottom="30sp"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="86dp" />
 
         <EditText
             android:id="@+id/editTextText6"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30sp"
             android:ems="10"
             android:hint="@string/edt_ape"
 
-            android:layout_marginBottom="10sp"
             android:inputType="text"
-            android:rotationY="0" />
-        <EditText
-            android:id="@+id/editTextText7"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:ems="10"
-            android:hint="@string/edt_email2"
-            android:layout_marginBottom="10sp"
+            android:rotationY="0"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="323dp" />
 
-            />
         <EditText
             android:id="@+id/editTextTextPassword"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="60sp"
+            android:layout_marginBottom="30sp"
             android:ems="10"
-            android:hint="@string/edt_pass2"/>
+            android:hint="@string/edt_pass2"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="451dp" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30sp"
+            android:ems="10"
+            android:hint="@string/edt_nom"
+
+            android:inputType="text"
+            android:rotationY="0"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="252dp" />
 
 
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30sp"
+            android:ems="10"
+            android:hint="@string/edt_email2"
 
-
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="390dp" />
         <Button
             android:id="@+id/button"
             android:layout_width="173dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="@color/sena"
+            android:layout_marginBottom="30sp"
             android:text="@string/btn_reg"
 
-            android:textColorLink="@color/sena" />
+            android:textColorLink="@color/sena"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="547dp" />
 
 
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/sena"
+            android:text="@string/btn_login2"
 
 
+            android:textColorLink="@color/sena"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="611dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

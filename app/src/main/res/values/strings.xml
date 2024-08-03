@@ -4,6 +4,7 @@
     <string name="app_name">MyApp1</string>
     <string name="logn">INCIAR SESION</string>
     <string name="edt_email">INGRESE SU CORREO</string>
+    <string name="edt_recu">Recuperar contraseña</string>
     <string name="edt_pass">INGRESE SU CONTRASEÑA</string>
     <string name="btn_login">INGRESAR</string>
     <string name="btn_gmail">CORREO GMAIL</string>
@@ -17,10 +18,11 @@
     <string name="edt_email2">INGRESE SU CORREO</string>
     <string name="edt_pass2">INGRESE SU CONTRASEÑA</string>
     <string name="btn_reg">REGISTRAR</string>
+    <string name="btn_login2">LOGIN</string>
 
     //RECUPERAR
 
-    <string name="rep">RECUPERAR CONTRASEÑA</string>
+    <string name="edt_rep">RECUPERAR CONTRASEÑA</string>
     <string name="edt_email3">INGRESE SU CORREO</string>
 
     <string name="btn_rec">RECUPERAR</string>

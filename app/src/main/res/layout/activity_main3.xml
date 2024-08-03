@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
     tools:context=".MainActivity3">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edt_rep"
+        android:textAlignment="center"
+        android:textColor="@color/sena"
+        android:textSize="24sp"
+        android:layout_marginBottom="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logo_sena"
+        android:layout_marginBottom="80sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="80sp"
+        android:ems="10"
+        android:hint="@string/edt_email2"
+
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/sena"
+        android:text="@string/btn_rec"
+
+        android:textColorLink="@color/sena"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+
+</LinearLayout>
